@@ -10,6 +10,7 @@
         <hr>
         <br>
         <a href='vistaProductos.jsp'>Productos</a>
+        <a href='vistaClientes.jsp'>Clientes</a>
         <br>
     </body>
 </html>
