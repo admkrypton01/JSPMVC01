@@ -24,9 +24,10 @@ public class conexionDT {
 //        catch (Exception e){
 //            throw e;
 //        }
-        strUsrbd="root";
-        strPasbd="krypton";
-        strUrlbd="jdbc:mysql://localhost:3306/bdcloud";;
+        strUsrbd="bdcloud";
+        strPasbd="5B9V5j5W5o07dary";
+        //strUrlbd="jdbc:mysql://localhost:3306/bdcloud";;
+        strUrlbd="jdbc:mysql://node24547-env-4095905.jelastic.cloudhosted.es/bdcloud";
         try
         {   //Carga el driver JDBC
             Class.forName("com.mysql.jdbc.Driver");
