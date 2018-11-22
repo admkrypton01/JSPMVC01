@@ -22,7 +22,7 @@ public class productosCT extends HttpServlet {
             List<productosNT> lstPrdcts = new ArrayList<>();
             try{
                 if(request.getParameter("btnInsertar")!=null){
-                    prdctsNT.setCodigo(Integer.parseInt(request.getParameter("txtCodi")));
+                    prdctsNT.setCodigo(Integer.parseInt("0"));
                     prdctsNT.setDescripcion(request.getParameter("txtDesc"));
                     prdctsNT.setStock(Double.parseDouble(request.getParameter("txtStoc")));
                     prdctsNT.setPrecio(Double.parseDouble(request.getParameter("txtPrec")));
