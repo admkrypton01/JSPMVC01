@@ -10,6 +10,8 @@ public class conexionDT {
     public conexionDT() throws Exception{
         strUsrbd="bdcloud";
         strPasbd="5B9V5j5W5o07dary";
+        //strUsrbd="root";
+        //strPasbd="passw0rd";
         //strUrlbd="jdbc:mysql://localhost:3306/bdcloud";;
         strUrlbd="jdbc:mysql://node24547-env-4095905.jelastic.cloudhosted.es/bdcloud";
         try
