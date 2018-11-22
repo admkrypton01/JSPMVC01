@@ -8,22 +8,6 @@ public class conexionDT {
     Connection conConecta = null;
     
     public conexionDT() throws Exception{
-//        CONEXION CON BASE DE DATOS ORACLE
-//        strUsrbd="uap";
-//        strPasbd="2018";
-//        strUrlbd="jdbc:oracle:thin:@localhost:1521:db11g";
-//        try
-//        {   //Carga el driver JDBC
-//            DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
-//            //Obtiene la conexion;
-//            conConecta=DriverManager.getConnection(strUrlbd,strUsrbd,strPasbd);
-//            if (conConecta != null){
-//                System.out.println("Conectado...");
-//            }
-//        }
-//        catch (Exception e){
-//            throw e;
-//        }
         strUsrbd="bdcloud";
         strPasbd="5B9V5j5W5o07dary";
         //strUrlbd="jdbc:mysql://localhost:3306/bdcloud";;
